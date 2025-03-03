@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>React Introduction</h1>
+      <p>React is a Javascript library for builidng UI</p>
     </div>
   );
 }
 
 export default App;
+
+
+
+/*
+  # React Basics
+    - Setup using create-react-app package 
+      - npx create-react-app my-app
+       - Wait for 'Happy Hacking' message, which shows up on successful react app creation
+    - Start application
+      - cd my-app
+      - npm start
+        - Load application on localhost:3000
+
+*/

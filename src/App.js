@@ -1,12 +1,13 @@
 import './App.css';
-import Student from './components/Student'
+// import Student from './components/Student'
+import ConditionalRendering from './components/ConditionalRendering';
 
 function App() {
   return (
     <div className="App">
       <h1>React Introduction</h1>
       <p>React is a Javascript library for builidng UI</p>
-      <div className='students-container'>
+      {/* <div className='students-container'>
         <Student
           studentName='Kiran'
           studentImg='https://reqres.in/img/faces/1-image.jpg'
@@ -22,7 +23,8 @@ function App() {
           studentImg='https://reqres.in/img/faces/5-image.jpg'
           ranking={3}
         />
-      </div>
+      </div> */}
+      <ConditionalRendering />
     </div>
   );
 }
